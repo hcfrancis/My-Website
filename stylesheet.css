@@ -96,6 +96,11 @@
   width: 350px;
 }
 
+.button {
+  position: relative;
+  top: 80px;
+  left: 520px;
+}
 .skills-div {
   margin: 50px 480px;
   width: 400px;
