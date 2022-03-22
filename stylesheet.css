@@ -65,19 +65,25 @@
 /* About Page Styling */
 
 .about-section {
+  margin: 100px 0;
+}
+
+.about-container {
+  max-width: 55rem;
   margin: auto;
+  width: 92%;
 }
 
 .about-container h1 {
   text-align: center;
   display: block;
-  font-size: 2rem;
-  margin: 50px 0;
+  font-size: 3rem;
+  margin-bottom: 80px;
 }
 
 .about-content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .about-content-main {
@@ -95,86 +101,22 @@
 }
 
 .about-skills-details {
-  margin: 35px 135px;
+  margin: 35px 110px;
 }
 
 .about-skills-details p {
   font-size: 1rem;
   max-width: 20rem;
+  text-align: left;
 }
 
 .about-image-container {
-  margin: auto 40px;
+  margin: auto auto;
 }
 
 .headshot {
   border-radius: 50px;
   width: 200px;
 }
-
-/* About Section Styling
-.about-section h1 {
-  margin: 30px 0;
-}
-
-.about-container {
-  margin: 100px 300px;
-}
-
-.about-div {
-  display: block;
-  text-align: left;
-  font-family: "Work Sans", sans-serif;
-  font-weight: light;
-  font-size: 1rem;
-  margin: 0px 260px;
-  max-width: 25rem;
-}
-
-.about-div h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.about-info {
-  line-height: 2;
-}
-
-.about-div img {
-  border-radius: 25px;
-  margin: -250px 380px;
-  position: absolute;
-  width: 280px;
-}
-
-.button {
-  position: relative;
-  top: 55px;
-  left: 480px;
-}
-.skills-div {
-  margin: 25px 485px;
-  width: 400px;
-}
-
-.skills-div h2 {
-  margin-bottom: 1rem;
-}
-
-.skills-list ul {
-  padding: 0px;
-}
-
-.skills-list ul li {
-  font-family: "Work Sans", sans-serif;
-  font-size: 1rem;
-  list-style: none;
-  line-height: 2.5;
-}
-
-.skills-category-two {
-  padding: 0%;
-  margin: -175px 130px;
-} */
 
 /* Media Query */
