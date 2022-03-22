@@ -68,7 +68,7 @@
 }
 
 .about-container {
-  margin: 150px 300px;
+  margin: 100px 300px;
 }
 
 .about-div {
@@ -97,11 +97,16 @@
 }
 
 .skills-div {
-  margin: 50px 330px;
+  margin: 50px 480px;
+  width: 400px;
 }
 
 .skills-div h2 {
   margin-bottom: 1rem;
+}
+
+.skills-list ul {
+  padding: 0px;
 }
 
 .skills-list ul li {
@@ -110,5 +115,6 @@
 }
 
 .skills-category-two {
+  padding: 0%;
   margin: -175px 130px;
 }
