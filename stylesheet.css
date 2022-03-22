@@ -1,1 +1,63 @@
+/* Homepage Styling */
 
+.homepage-section {
+  color: white;
+  background-image: url(images/Homepage.png);
+  background-repeat: no-repeat;
+  background-color: #040a18;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: auto;
+}
+
+.homepage-div {
+  /* top: 50%;
+  left: 50%; */
+  margin-top: 200px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.homepage-div h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3.5rem;
+  margin: 10px 0px;
+}
+
+.homepage-description {
+  font-family: "Work Sans", sans-serif;
+  font-weight: light;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  max-width: 24rem;
+  margin: auto;
+}
+
+.homepage-div img {
+  margin-top: 25px;
+  width: 350px;
+}
+
+/* Media Query */
+
+@media (max-width: 575.98px) {
+  .homepage-div h1 {
+    font-size: 2.5rem;
+  }
+
+  .homepage-description {
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: light;
+    max-width: 19rem;
+    margin: auto;
+  }
+
+  .homepage-div img {
+    margin: 15px 15px;
+    width: 250px;
+  }
+}
