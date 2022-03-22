@@ -115,6 +115,8 @@
 }
 
 .skills-list ul li {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
   list-style: none;
   line-height: 2.5;
 }
@@ -122,4 +124,34 @@
 .skills-category-two {
   padding: 0%;
   margin: -175px 130px;
+}
+
+/* Media Query */
+
+@media (max-width: 575.98px) {
+  .about-container {
+    margin: 45px 300px;
+  }
+  .about-div {
+    font-size: 0.9rem;
+    margin: 0px -235px;
+  }
+
+  .about-div img {
+    border-radius: 25px;
+    margin: 45px 65px;
+    position: absolute;
+    width: 250px;
+  }
+
+  .skills-div {
+    margin: 370px -235px;
+    width: 400px;
+  }
+
+  .button {
+    position: relative;
+    top: 315px;
+    left: 150px;
+  }
 }
