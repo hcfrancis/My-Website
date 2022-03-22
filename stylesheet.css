@@ -64,7 +64,7 @@
 
 /* About Section Styling */
 .about-section h1 {
-  margin: 50px 0;
+  margin: 30px 0;
 }
 
 .about-container {
@@ -82,7 +82,8 @@
 }
 
 .about-div h2 {
-  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .about-info {
@@ -91,18 +92,18 @@
 
 .about-div img {
   border-radius: 25px;
-  margin: -300px 380px;
+  margin: -250px 380px;
   position: absolute;
-  width: 350px;
+  width: 280px;
 }
 
 .button {
   position: relative;
-  top: 80px;
-  left: 520px;
+  top: 55px;
+  left: 480px;
 }
 .skills-div {
-  margin: 50px 480px;
+  margin: 25px 485px;
   width: 400px;
 }
 
@@ -130,28 +131,26 @@
 
 @media (max-width: 575.98px) {
   .about-container {
-    margin: 45px 300px;
+    padding: 19rem 0 13rem 0;
+    margin: auto;
+    position: static;
+    transform: translate(0, 0);
   }
+
   .about-div {
+    display: block;
+    text-align: center;
     font-size: 0.9rem;
-    margin: 0px -235px;
+  }
+
+  .about-info {
+    max-width: 0;
   }
 
   .about-div img {
     border-radius: 25px;
-    margin: 45px 65px;
-    position: absolute;
+    margin: 115px -252px;
     width: 250px;
-  }
-
-  .skills-div {
-    margin: 370px -235px;
-    width: 400px;
-  }
-
-  .button {
-    position: relative;
-    top: 315px;
-    left: 150px;
+    position: absolute;
   }
 }
