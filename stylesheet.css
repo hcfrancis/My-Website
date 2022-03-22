@@ -61,3 +61,30 @@
     width: 250px;
   }
 }
+
+/* About Section Styling */
+
+.about-section {
+  margin: 200px 0px;
+}
+
+.about-div {
+  display: block;
+  text-align: left;
+  font-family: "Work Sans", sans-serif;
+  font-weight: light;
+  font-size: 1rem;
+  margin: 0px 125px;
+  max-width: 24rem;
+}
+
+.about-info {
+  line-height: 2;
+}
+
+.about-div img {
+  border-radius: 25px;
+  margin: -300px 280px;
+  position: absolute;
+  width: 350px;
+}
