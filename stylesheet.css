@@ -86,12 +86,11 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.about-content-main {
-  text-align: center;
+.about-content-main h3 {
+  text-align: left;
 }
 .about-content-main p {
   font-size: 1rem;
-  max-width: 25rem;
   line-height: 1.7;
   margin: 25px auto;
 }
@@ -102,21 +101,23 @@
   padding: 0;
   box-sizing: inherit;
   font-family: inherit;
-  text-align: center;
+  text-align: left;
 }
 .about-skills-main h3 {
+  text-align: left;
   margin-bottom: 20px;
 }
 
 .about-skills-details {
   display: flex;
   flex-wrap: wrap;
+  margin: 25px 0;
 }
 
 .skills-skill {
   padding: 1rem 1rem;
   margin-bottom: 1.5rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
   font-weight: 600;
@@ -125,7 +126,7 @@
 }
 
 .about-image-container {
-  margin: 15px auto;
+  margin: auto auto;
 }
 
 .headshot {
@@ -135,9 +136,7 @@
 
 /* Media Query */
 
-/* Small Devices */
-
-@media (max-width: 768px) {
+@media (max-width: 1199.98px) {
   .about-container {
     display: block;
     text-align: center;
@@ -155,9 +154,10 @@
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     display: block;
-    text-align: center;
+    text-align: left;
     font-size: 0.8rem;
-    margin: auto;
+    margin: 0 auto;
+    max-width: 400px;
   }
 
   .about-content-main p {
@@ -168,31 +168,35 @@
   }
 
   .about-skills-main {
-    /* margin: 25px auto; */
+    margin: 25px 0px;
     text-align: center;
   }
 
   .skills-skill {
-    font-size: 1rem;
-    max-width: 20rem;
-    margin-top: 5px;
-    text-align: left;
-    padding: 1rem 2rem;
+    padding: 0.8rem 0.8rem;
     margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
-    font-size: 1.6rem;
+    margin-right: 0.5rem;
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
     font-weight: 600;
     color: #666;
+    font-size: 0.8rem;
   }
 
   .about-image-container {
     margin: 15px auto;
   }
+}
 
-  .headshot {
-    border-radius: 50%;
-    width: 230px;
+@media (min-width: 1199.98px) {
+  .skills-skill {
+    padding: 0.8rem 0.8rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.5rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+    font-size: 0.8rem;
   }
 }
