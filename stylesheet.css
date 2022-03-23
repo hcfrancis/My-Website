@@ -87,6 +87,7 @@
 }
 
 .about-content-main h3 {
+  font-family: "Work Sans", sans-serif;
   text-align: left;
 }
 .about-content-main p {
@@ -104,6 +105,7 @@
   text-align: left;
 }
 .about-skills-main h3 {
+  font-family: "Work Sans", sans-serif;
   text-align: left;
   margin-bottom: 20px;
 }
