@@ -215,22 +215,3 @@
 }
 
 /* Add some padding inside the card container */
-.project-card-div {
-  display: flex;
-  justify-content: space-around;
-}
-
-.project-card {
-  margin: 25px;
-  max-width: 300px;
-  height: 270px;
-  padding: 35px;
-  display: flex;
-  justify-content: space-evenly;
-  -webkit-box-align: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  background-color: rgb(198, 56, 56);
-  border-radius: 10px;
-}
