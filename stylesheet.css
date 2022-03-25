@@ -235,8 +235,14 @@
 }
 
 .card {
+  width: 20rem;
   border: 0px;
 }
+
+/* .card:hover {
+  width: 100px;
+  background-color: #040a18;
+} */
 
 /* Media Query */
 
@@ -249,4 +255,13 @@
   /* .container {
     flex-direction: column;
   } */
+}
+
+/* Contact Section */
+
+.contact-container {
+  /* max-width: 55rem; */
+  text-align: center;
+  margin: 100px auto;
+  width: 50%;
 }
