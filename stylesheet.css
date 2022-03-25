@@ -71,7 +71,7 @@
 .about-container {
   /* max-width: 55rem; */
   margin: auto;
-  margin: 100px auto;
+  margin: 55px auto;
   width: 80%;
 }
 
@@ -262,6 +262,17 @@
 .contact-container {
   /* max-width: 55rem; */
   text-align: center;
-  margin: 100px auto;
+  margin: 75px auto;
   width: 50%;
+}
+
+.contact-container h1 {
+  margin-bottom: 25px;
+  font-size: 3rem;
+}
+
+.contact-container p {
+  max-width: 440px;
+  margin: 0 auto;
+  line-height: 3;
 }
