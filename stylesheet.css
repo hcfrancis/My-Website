@@ -1,3 +1,9 @@
+/* Navbar Styling */
+
+/* .navbar-toggler {
+  float: left;
+} */
+
 /* Homepage Styling */
 
 .homepage-section {
@@ -239,6 +245,10 @@
   border: 0px;
 }
 
+.card-text:last-child {
+  margin-bottom: 0;
+  margin: 10px;
+}
 /* .card:hover {
   width: 100px;
   background-color: #040a18;
@@ -272,7 +282,46 @@
 }
 
 .contact-container p {
+  font-family: "Work Sans", sans-serif;
   max-width: 440px;
   margin: 0 auto;
   line-height: 3;
+}
+
+/* Footer Styling */
+
+/* .footer-container {
+  background-color: #040a18;
+  color: white;
+}
+
+.footer-container h1 {
+  font-size: 1.5rem;
+} */
+
+.footer {
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+  font-size: 30px;
+  transition: 0.5s ease;
+  transition-timing-function: linear;
 }
