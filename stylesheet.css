@@ -71,6 +71,7 @@
 .about-container {
   /* max-width: 55rem; */
   margin: auto;
+  margin: 100px auto;
   width: 80%;
 }
 
