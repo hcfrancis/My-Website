@@ -205,13 +205,36 @@
 
 /* Projects Section */
 
+.projects-section {
+  background-color: rgb(197, 197, 197);
+}
+
 .projects-section-container {
-  background-color: rgb(226, 226, 226);
-  margin: 100px 0;
+  margin: auto;
+  width: 80%;
 }
 
 .projects-header {
-  margin: 100px 0;
+  display: block;
+  text-align: center;
+  max-width: 695px;
+  margin: auto;
 }
 
-/* Add some padding inside the card container */
+.projects-header h1 {
+  display: block;
+  text-align: center;
+  max-width: 695px;
+  margin: auto;
+}
+
+.projects-header p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 25px auto;
+}
+
+.projects-card-div {
+  margin-top: 100px;
+}
