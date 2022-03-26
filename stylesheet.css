@@ -326,3 +326,145 @@
   transition: 0.5s ease;
   transition-timing-function: linear;
 }
+
+/* PROJECTS STYLING */
+
+/* Halfway Project Styling */
+
+/* .heading-div */
+
+.heading-div {
+  margin: auto;
+  margin: 105px 180px;
+  max-width: 45%;
+}
+
+.heading-div h2 {
+  margin: 35px 0;
+}
+
+.heading-div h1 {
+  text-align: left;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  line-height: 1.5;
+}
+
+.hw-image-one {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .heading-div {
+    margin: auto;
+    margin: 105px 45px;
+    max-width: 635px;
+  }
+
+  .heading-div h2 {
+    font-size: 1.5rem;
+    font-weight: light;
+    margin: 25px 0;
+  }
+
+  .heading-div h1 {
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: medium;
+    line-height: 1.5;
+  }
+}
+
+.hw-image-one {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* width: 1185px; */
+
+/* Container Two */
+.container-two {
+  /* display: flex;
+  justify-content: space-between; */
+  margin: 105px;
+}
+
+.container-two h2 {
+  max-width: 380px;
+  margin: 25px auto;
+}
+.container-two p {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .container-two {
+    margin: 100px;
+  }
+
+  .container-two h2 {
+    max-width: 380px;
+  }
+  .container-two p {
+    font-size: 0.9rem;
+    max-width: 380px;
+  }
+}
+
+/* Container Three */
+
+.container-three h1 {
+  margin: 200px 35px;
+}
+.container-three p {
+  max-width: 380px;
+  letter-spacing: 0.00464286em;
+}
+
+.image-col-left {
+  margin: 80px;
+}
+
+.hw-image-three {
+  width: 475px;
+}
+.hw-image-four {
+  width: 430px;
+}
+
+.image-col-left p {
+  text-align: center;
+  margin: 25px 0;
+  max-width: 255px;
+}
+
+@media (max-width: 576px) {
+  .container-two {
+    margin: 105px 0;
+  }
+  .container-three h1 {
+    margin: 35px 0;
+  }
+  .container-three p {
+    max-width: 380px;
+    letter-spacing: 0.00464286em;
+  }
+
+  .image-col-left {
+    margin: 80px;
+  }
+
+  .hw-image-three {
+    width: 475px;
+  }
+  .hw-image-four {
+    width: 430px;
+  }
+}
