@@ -6,6 +6,10 @@
 
 /* Homepage Styling */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .homepage-section {
   color: white;
   background-image: url(images/Homepage.png);

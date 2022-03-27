@@ -4,6 +4,10 @@
 
 /* .heading-div */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .heading-div {
   margin: auto;
   margin: 105px 180px;
