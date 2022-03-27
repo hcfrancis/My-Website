@@ -201,3 +201,25 @@
     padding: 50px;
   }
 }
+
+/* Fourth Section */
+
+.fourth-section-container {
+  margin: 150px 0;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px auto;
+  width: 80%;
+}
+
+.heading-container-h2 {
+  max-width: 285px;
+}
+
+.heading-container-p {
+  font-size: 1.5rem;
+  max-width: 465px;
+}
