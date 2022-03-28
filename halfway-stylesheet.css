@@ -158,18 +158,18 @@ a:hover {
 
 /* Third Section */
 
-.my-role-container {
+.third-section-container {
   background-color: #e7e7f6;
   margin: 105px auto;
   padding: 145px;
   display: block;
 }
 
-.my-role-container-info {
+.third-section-container-info {
   margin: 0 auto;
 }
 
-.my-role-container-info h1 {
+.third-section-container-info h1 {
   text-align: center;
   font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
@@ -177,14 +177,14 @@ a:hover {
   line-height: 1.5;
 }
 
-.my-role-container-info p {
+.third-section-container-info p {
   margin: 50px auto;
   text-align: center;
   line-height: 1.5;
 }
 
 @media (max-width: 991.98px) {
-  .my-role-container {
+  .third-section-container {
     background-color: #e7e7f6;
     margin: 105px auto;
     padding: 45px;
@@ -277,6 +277,41 @@ a:hover {
 }
 
 /* Fifth Section */
+
+.fifth-section-container {
+  background-color: #e7e7f6;
+  margin: 105px auto;
+  padding: 145px;
+  display: block;
+}
+
+.fifth-section-container-info {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.fifth-section-container-info h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  line-height: 1.5;
+}
+
+.fifth-section-container-info p {
+  margin: 50px auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (max-width: 991.98px) {
+  .fifth-section-container {
+    background-color: #e7e7f6;
+    margin: 105px auto;
+    padding: 45px;
+    display: block;
+  }
+}
 
 .container-three h1 {
   margin: 115px 35px;
