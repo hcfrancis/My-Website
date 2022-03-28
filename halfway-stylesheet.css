@@ -2,28 +2,54 @@
 
 /* Halfway Project Styling */
 
-/* .heading-div */
-
 html {
   scroll-behavior: smooth;
 }
 
-.heading-div {
-  margin: auto;
-  margin: 105px 180px;
-  max-width: 45%;
-}
+/* First Section Styling */
 
-.heading-div h2 {
-  margin: 35px 0;
+.heading-div {
+  margin: 105px auto;
+  margin-top: 105px;
+  margin-bottom: 50px;
 }
 
 .heading-div h1 {
-  text-align: left;
+  text-align: center;
   font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: medium;
   line-height: 1.5;
+}
+
+.menu {
+  margin: -25px auto;
+}
+
+.menu ul {
+  padding: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(219, 211, 211);
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+  transition-timing-function: ease-out;
+  transition: 0.5s;
 }
 
 .hw-image-one {
@@ -35,23 +61,13 @@ html {
 
 @media (max-width: 1199.98px) {
   .heading-div {
-    margin: 30px 0;
-    padding: 40px;
-    max-width: 635px;
-  }
-
-  .heading-div h2 {
-    font-size: 1.5rem;
-    font-weight: light;
-    margin: 25px 0;
+    margin: 105px auto;
+    margin-top: 105px;
+    margin-bottom: 50px;
   }
 
   .heading-div h1 {
-    text-align: left;
-    font-size: 1.2rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: medium;
-    line-height: 1.5;
+    font-size: 2.5rem;
   }
 }
 
@@ -61,39 +77,67 @@ html {
   height: 100%;
   object-fit: cover;
 }
-/* width: 1185px; */
 
-/* Container Two */
-.container-two {
-  /* display: flex;
-  justify-content: space-between; */
+/* Second Section */
+
+.second-section-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 105px;
+  /* padding: 0px 140px; */
+  /* width: 100%; */
 }
 
-.container-two h2 {
+.second-section-container h2 {
   max-width: 380px;
   margin: 25px auto;
 }
-.container-two p {
+.second-section-container p {
   max-width: 380px;
   margin: 0 auto;
 }
 
-@media (max-width: 1199.98px) {
-  .container-two {
+.second-section-container-info,
+.second-section-container-image {
+  margin: 0 auto;
+}
+
+.info-two {
+  margin-top: 25px;
+}
+
+@media (max-width: 575.98px) {
+  .second-section-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 0;
+  }
+
+  .second-section-container-image {
+    margin-top: 50px;
+    margin-bottom: 75px;
+  }
+
+  .second-section-container p {
+    font-size: 0.8rem;
+  }
+}
+
+/* @media (max-width: 1199.98px) {
+  .second-section-container {
     margin: 30px 0;
     padding: 40px;
   }
 
-  .container-two h2 {
+  .second-section-container h2 {
     max-width: 380px;
     font-size: 1.2rem;
   }
-  .container-two p {
+  .second-section-container p {
     font-size: 0.9rem;
     max-width: 380px;
   }
-}
+} */
 
 /* Third Section */
 
