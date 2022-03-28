@@ -306,21 +306,117 @@ a:hover {
 
 @media (max-width: 991.98px) {
   .fifth-section-container {
-    background-color: #e7e7f6;
-    margin: 105px auto;
     padding: 45px;
-    display: block;
+  }
+
+  .fifth-section-container-info h1 {
+    font-size: 1.8rem;
   }
 }
 
-.container-three h1 {
-  margin: 115px 35px;
+/* Sixth Section */
+
+.sixth-section-img {
+  display: block;
+  margin: 50px auto;
+  padding: 0 50px;
+  width: 350px;
 }
 
 .container-three p {
   max-width: 380px;
   letter-spacing: 0.00464286em;
 }
+
+.s6-splitshow-container {
+  margin: 55px auto;
+}
+
+.s6-splitshow-container-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 55px auto;
+  width: 50%;
+}
+
+@media (max-width: 1199.98px) {
+  .s6-splitshow-container {
+    margin: 55px auto;
+  }
+
+  .s6-splitshow-container-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 55px auto;
+    width: 50%;
+  }
+
+  .c3-img {
+    display: block;
+    margin: auto;
+    width: 390px;
+  }
+
+  .image-col-left,
+  .image-col-right {
+    display: block;
+    margin: auto;
+    padding: 0 0;
+  }
+
+  .img-three {
+    margin-top: 50px;
+  }
+
+  .image-col-left .image-col-right p {
+    text-align: left;
+    margin: 35px auto;
+    max-width: 255px;
+  }
+
+  .image-col-left-info h2 {
+    margin-top: 75px 0;
+  }
+
+  .image-col-left-info {
+    margin: -25px 0;
+    padding: 50px;
+  }
+}
+
+/* Seventh Section */
+
+.seventh-section-heading-container h1 {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.seventh-section-container-info {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.seventh-section-container-info h4 {
+  margin: 15px 0;
+}
+
+/* Eighth Section */
+
+.eighth-section-heading-container h1 {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.eighth-section-container-info {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.eighth-section-container-info h4 {
+  margin: 15px 0;
+}
+
+/* Branding Section */
 
 .splitshow-container {
   margin: 55px 0;
@@ -329,10 +425,10 @@ a:hover {
 .splitshow-items-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* margin: 0 465px; */
   margin: 55px auto;
   width: 80%;
 }
+
 .col {
   flex: 0 0 0%;
 }
@@ -471,6 +567,7 @@ a:hover {
   margin: 15px auto;
   line-height: 2;
 }
+
 /* Footer Styling */
 
 .footer {
