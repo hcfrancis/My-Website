@@ -185,9 +185,98 @@ a:hover {
 
 @media (max-width: 991.98px) {
   .my-role-container {
-    padding: 50px 70px;
+    background-color: #e7e7f6;
+    margin: 105px auto;
+    padding: 45px;
+    display: block;
   }
 }
+
+/* Fourth Section */
+
+.fourth-section-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 105px;
+  padding: 0 35px;
+}
+
+.fourth-section-container h1 {
+  max-width: 380px;
+  margin: 25px auto;
+}
+
+.fourth-section-container p {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+.fourth-section-container-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.fourth-section-container-info,
+.fourth-section-container-image {
+  margin: 0 auto;
+}
+
+.info-two {
+  margin-top: 25px;
+}
+@media (max-width: 991.98px) {
+  .info-one h4,
+  .info-two h4 {
+    max-width: 550px;
+    margin: 10px auto;
+  }
+
+  .info-one p,
+  .info-two p {
+    font-size: 1rem;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+
+  .fourth-section-container-image img {
+    width: 99%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .fourth-section-container {
+    margin: 0 0;
+    display: block;
+    text-align: left;
+    margin: 0px auto;
+    padding: 0 45px;
+  }
+
+  .fourth-section-container-image {
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+  }
+
+  .fourth-section-container h2 {
+    max-width: 550px;
+  }
+
+  .info-one h4,
+  .info-two h4 {
+    max-width: 550px;
+    margin: 10px auto;
+  }
+
+  .info-one p,
+  .info-two p {
+    max-width: 550px;
+  }
+}
+
+/* Fifth Section */
 
 .container-three h1 {
   margin: 115px 35px;
