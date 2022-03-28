@@ -384,7 +384,39 @@ a:hover {
   }
 }
 
-/* another section */
+/* Seventh Section */
+
+.seventh-section-heading-container h1 {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.seventh-section-container-info {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.seventh-section-container-info h4 {
+  margin: 15px 0;
+}
+
+/* Eighth Section */
+
+.eighth-section-heading-container h1 {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.eighth-section-container-info {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.eighth-section-container-info h4 {
+  margin: 15px 0;
+}
+
+/* Branding Section */
 
 .splitshow-container {
   margin: 55px 0;
@@ -395,10 +427,6 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   margin: 55px auto;
   width: 80%;
-}
-
-.container-three h1 {
-  margin: 115px 35px;
 }
 
 .col {
