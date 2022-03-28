@@ -84,14 +84,13 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 105px;
-  /* padding: 0px 140px; */
-  /* width: 100%; */
 }
 
 .second-section-container h2 {
   max-width: 380px;
   margin: 25px auto;
 }
+
 .second-section-container p {
   max-width: 380px;
   margin: 0 auto;
@@ -105,41 +104,90 @@ a:hover {
 .info-two {
   margin-top: 25px;
 }
-
-@media (max-width: 575.98px) {
-  .second-section-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 0;
+@media (max-width: 991.98px) {
+  .info-one h4,
+  .info-two h4 {
+    max-width: 550px;
+    margin: 10px auto;
   }
 
-  .second-section-container-image {
-    margin-top: 50px;
-    margin-bottom: 75px;
+  .info-one p,
+  .info-two p {
+    font-size: 1rem;
+    max-width: 550px;
+    margin: 0 auto;
   }
 
-  .second-section-container p {
-    font-size: 0.8rem;
+  .second-section-container-image img {
+    width: 99%;
+    margin-top: 15px;
+    margin-bottom: 50px;
   }
 }
 
-/* @media (max-width: 1199.98px) {
+@media (max-width: 1199.98px) {
   .second-section-container {
-    margin: 30px 0;
-    padding: 40px;
+    margin: 0 0;
+    display: block;
+    text-align: left;
+    margin: 0px auto;
+    padding: 0 45px;
+  }
+
+  .second-section-container-image {
+    display: block;
+    margin: 25px auto;
+    text-align: center;
   }
 
   .second-section-container h2 {
-    max-width: 380px;
-    font-size: 1.2rem;
+    max-width: 550px;
   }
-  .second-section-container p {
-    font-size: 0.9rem;
-    max-width: 380px;
+
+  .info-one h4,
+  .info-two h4 {
+    max-width: 550px;
+    margin: 10px auto;
   }
-} */
+
+  .info-one p,
+  .info-two p {
+    max-width: 550px;
+  }
+}
 
 /* Third Section */
+
+.my-role-container {
+  background-color: #e7e7f6;
+  margin: 105px auto;
+  padding: 145px;
+  display: block;
+}
+
+.my-role-container-info {
+  margin: 0 auto;
+}
+
+.my-role-container-info h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  line-height: 1.5;
+}
+
+.my-role-container-info p {
+  margin: 50px auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (max-width: 991.98px) {
+  .my-role-container {
+    padding: 50px 70px;
+  }
+}
 
 .container-three h1 {
   margin: 115px 35px;
