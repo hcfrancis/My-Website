@@ -582,8 +582,16 @@ a:hover {
 
 /* Figma Section */
 
+.figma-section-container-info {
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+  /* width: 50%; */
+}
+
 .figma-section-container h1 {
   text-align: center;
+  margin: 25px auto;
 }
 
 /* info div */
@@ -591,13 +599,16 @@ a:hover {
 .info-div {
   text-align: center;
   margin: 75px auto;
-  width: 50%;
 }
 
 .info-div p {
-  max-width: 540px;
-  margin: 15px auto;
-  line-height: 2;
+  margin: 25px auto;
+}
+
+@media (max-width: 576px) {
+  .info-div p {
+    margin: 25px auto;
+  }
 }
 
 /* Footer Styling */
