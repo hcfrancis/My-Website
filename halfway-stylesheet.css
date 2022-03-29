@@ -16,7 +16,7 @@ html {
 
 .heading-div h1 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-family: "Montserrat", sans-serif;
   font-weight: medium;
   line-height: 1.5;
@@ -42,6 +42,7 @@ html {
 .menu ul li a {
   color: black;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
 a:hover {
@@ -83,7 +84,8 @@ a:hover {
 .second-section-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 105px;
+  margin: 105px auto;
+  max-width: 1080px;
 }
 
 .second-section-container h2 {
@@ -186,7 +188,7 @@ a:hover {
 @media (max-width: 991.98px) {
   .third-section-container {
     background-color: #e7e7f6;
-    margin: 105px auto;
+    margin: 0 auto;
     padding: 45px;
     display: block;
   }
@@ -197,8 +199,9 @@ a:hover {
 .fourth-section-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 105px;
+  margin: 150px auto;
   padding: 0 35px;
+  max-width: 1080px;
 }
 
 .fourth-section-container h1 {
@@ -212,7 +215,7 @@ a:hover {
 }
 
 .fourth-section-container-image img {
-  width: 100%;
+  width: 145%;
   height: 100%;
 }
 
@@ -264,6 +267,12 @@ a:hover {
     max-width: 550px;
   }
 
+  .fourth-section-container-image img {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+
   .info-one h4,
   .info-two h4 {
     max-width: 550px;
@@ -280,7 +289,7 @@ a:hover {
 
 .fifth-section-container {
   background-color: #e7e7f6;
-  margin: 105px auto;
+  margin: 0 auto;
   padding: 145px;
   display: block;
 }
@@ -336,19 +345,20 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 55px auto;
-  width: 50%;
+  /* width: 50%; */
+  max-width: 905px;
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 991.98px) {
   .s6-splitshow-container {
     margin: 55px auto;
   }
 
   .s6-splitshow-container-items {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 55px auto;
-    width: 50%;
+    width: 100%;
   }
 
   .c3-img {
@@ -383,11 +393,41 @@ a:hover {
     padding: 50px;
   }
 }
+@media (max-width: 767.98px) {
+  .sixth-section-img {
+    display: block;
+    margin: 50px auto;
+    padding: 0 50px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .s6-splitshow-container-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 55px auto;
+    /* width: 50%; */
+    max-width: 905px;
+  }
+
+  .sixth-section-img {
+    display: block;
+    margin: 50px auto;
+    padding: 0 50px;
+    width: 400px;
+  }
+}
 
 /* Seventh Section */
 
-.seventh-section-heading-container h1 {
-  margin: 0 auto;
+.seventh-section-container {
+  margin: 50px 0;
+  padding: 20px;
+}
+
+.seventh-section-container h1 {
+  margin: 30px auto;
   max-width: 600px;
 }
 
@@ -396,15 +436,18 @@ a:hover {
   max-width: 600px;
 }
 
-.seventh-section-container-info h4 {
-  margin: 15px 0;
+@media (max-width: 576px) {
+  .seventh-section-container {
+    padding: 50px;
+    margin: 0 0;
+  }
 }
 
 /* Eighth Section */
 
-.eighth-section-heading-container h1 {
-  margin: 0 auto;
-  max-width: 600px;
+.eighth-section-container {
+  margin: 50px 0;
+  padding: 20px;
 }
 
 .eighth-section-container-info {
@@ -412,16 +455,24 @@ a:hover {
   max-width: 600px;
 }
 
+.eighth-section-heading-container h1 {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
 .eighth-section-container-info h4 {
   margin: 15px 0;
 }
 
+@media (max-width: 576px) {
+  .eighth-section-container {
+    padding: 50px;
+    margin: -50px 0;
+  }
+}
 /* Branding Section */
 
-.splitshow-container {
-  margin: 55px 0;
-}
-
+/* styling applied to braning section and ninth section */
 .splitshow-items-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -447,6 +498,7 @@ a:hover {
 }
 
 .c3-img {
+  border-radius: 2px;
   display: block;
   margin: auto;
   width: 430px;
@@ -483,6 +535,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
+    width: 100%;
   }
 
   .c3-img {
@@ -518,7 +571,7 @@ a:hover {
   }
 }
 
-/* Fourth Section */
+/* Fourth Section
 
 .fourth-section-container {
   margin: 150px 0;
@@ -554,7 +607,15 @@ a:hover {
     font-size: 1.5rem;
     max-width: 465px;
   }
+} */
+
+/* Figma Section */
+
+.figma-section-container h1 {
+  text-align: center;
 }
+
+/* info div */
 
 .info-div {
   text-align: center;
