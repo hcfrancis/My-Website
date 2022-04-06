@@ -323,13 +323,31 @@ a:hover {
   }
 
   .competitor-app-image-container {
-    display: flex;
-    justify-content: space-around;
-    padding: 0 400px;
+    padding: 0 20px;
   }
 
   .competitor-app-image-container img {
-    width: 50px;
+    width: 75px;
+  }
+
+  .competitor-app-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .competitor-app-info h4 {
+    font-size: 0.5rem;
+    text-align: center;
+  }
+
+  .research-questions-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .research-questions-container p {
+    font-size: 0.8rem;
+    line-height: 2;
   }
 }
 
@@ -374,6 +392,24 @@ a:hover {
   font-weight: light;
   max-width: 400px;
   text-align: center;
+}
+
+@media (max-width: 575.98px) {
+  .user-story-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 35px auto;
+  }
+
+  .user-story-section-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .user-story-section-info {
+    max-width: 500px;
+    text-align: center;
+    padding: 55px;
+  }
 }
 
 /* Fourth Section */
