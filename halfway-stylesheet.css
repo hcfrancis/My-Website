@@ -104,6 +104,15 @@ a:hover {
   }
 }
 
+@media (max-width: 575.98px) {
+  .heading-div h1 {
+    font-size: 2rem;
+  }
+  .menu ul li a {
+    font-size: 1rem;
+  }
+}
+
 /* Second Section */
 
 .second-section-container {
@@ -131,6 +140,7 @@ a:hover {
 .info-two {
   margin-top: 25px;
 }
+
 @media (max-width: 991.98px) {
   .info-one h4,
   .info-two h4 {
@@ -156,7 +166,7 @@ a:hover {
   .second-section-container {
     margin: 0 0;
     display: block;
-    text-align: left;
+    text-align: center;
     margin: 0px auto;
     padding: 0 45px;
   }
@@ -180,6 +190,22 @@ a:hover {
   .info-one p,
   .info-two p {
     max-width: 550px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .second-section-container h2 {
+    font-size: 1.6rem;
+  }
+  .info-one h4,
+  .info-two h4 {
+    font-size: 1.4rem;
+  }
+
+  .info-one p,
+  .info-two p {
+    font-size: 0.8rem;
+    line-height: 2;
   }
 }
 
@@ -218,7 +244,19 @@ a:hover {
   }
 }
 
+@media (max-width: 575.98px) {
+  .third-section-container-info h1 {
+    font-size: 1.6rem;
+  }
+
+  .third-section-container-info p {
+    font-size: 0.8rem;
+    line-height: 2;
+  }
+}
+
 /* Research Section Styling */
+
 .research-section-container {
   margin: 105px auto;
 }
@@ -266,6 +304,33 @@ a:hover {
   font-size: 2rem;
   font-weight: medium;
   margin-bottom: 30px;
+}
+
+@media (max-width: 575.98px) {
+  .research-section-container {
+    margin: 0 auto;
+    padding: 55px;
+    display: block;
+  }
+
+  .research-section-container-info h1 {
+    font-size: 1.6rem;
+  }
+
+  .research-section-container-info p {
+    font-size: 0.8rem;
+    line-height: 2;
+  }
+
+  .competitor-app-image-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 400px;
+  }
+
+  .competitor-app-image-container img {
+    width: 50px;
+  }
 }
 
 /* User Story Styling */
@@ -321,6 +386,7 @@ a:hover {
   text-align: left;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 105px;
 }
 
 .fourth-section-container-info h1 {
@@ -344,122 +410,32 @@ a:hover {
 /* Fifth Section */
 
 .fifth-section-container {
-  background-color: #e7e7f6;
-  margin: 0 auto;
-  /* padding: 45px; */
-  padding-top: 45px;
-  display: block;
+  margin: 105px 0;
 }
 
 .fifth-section-container-info {
+  text-align: left;
+  max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 105px;
 }
 
 .fifth-section-container-info h1 {
   text-align: center;
-  font-size: 2.5rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: medium;
-  line-height: 1.5;
-  padding: 20px;
+  margin-bottom: 25px;
 }
 
-.fifth-section-container-info p {
+.fifth-section-wireframe-container {
+  background-color: #e7e7f6;
   margin: 25px auto;
-  text-align: center;
-  line-height: 1.5;
-  max-width: 600px;
-  padding: 20px;
-}
-
-/* Fifth Section Wireframe Images */
-
-.s5-splitshow-container {
-  margin: 0 auto;
-}
-
-.s5-splitshow-container-items {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 10px auto;
-  max-width: 945px;
-}
-
-.fifth-section-img {
+  padding: 45px;
   display: block;
+}
+
+.fifth-section-wireframe-container img {
   margin: 0 auto;
-  padding: 20px 50px;
-  width: 400px;
-}
-
-@media (max-width: 991.98px) {
-  .s5-splitshow-container {
-    margin: 0 auto;
-  }
-
-  .s5-splitshow-container-items {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
-    /* width: 100%; */
-  }
-
-  .c3-img {
-    display: block;
-    margin: auto;
-    width: 390px;
-  }
-
-  .image-col-left,
-  .image-col-right {
-    display: block;
-    margin: auto;
-    padding: 0 0;
-  }
-
-  .img-three {
-    margin-top: 50px;
-  }
-
-  .image-col-left .image-col-right p {
-    text-align: left;
-    margin: 35px auto;
-    max-width: 255px;
-  }
-
-  .image-col-left-info h2 {
-    margin-top: 75px 0;
-  }
-
-  .image-col-left-info {
-    margin: -25px 0;
-    padding: 50px;
-  }
-}
-@media (max-width: 767.98px) {
-  .fifth-section-img {
-    display: block;
-    margin: 50px auto;
-    padding: 0 50px;
-    width: 350px;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .s5-splitshow-container-items {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 55px auto;
-    /* width: 50%; */
-    max-width: 905px;
-  }
-
-  .fifth-section-img {
-    display: block;
-    margin: 50px auto;
-    padding: 0 50px;
-    width: 400px;
-  }
+  display: block;
+  width: 900px;
 }
 
 /* Seventh Section */
@@ -472,50 +448,39 @@ a:hover {
 .seventh-section-container h1 {
   margin: 30px auto;
   max-width: 600px;
+  text-align: center;
 }
 
 .seventh-section-container-info {
   margin: 30px auto;
   max-width: 600px;
+  text-align: center;
 }
 
-@media (max-width: 576px) {
-  .seventh-section-container {
-    padding: 50px;
-    margin: 0 0;
-  }
-}
-
-/* Eighth Section */
-
-.eighth-section-container {
-  margin: 0 0;
-  padding: 20px;
-}
-
-.eighth-section-container-info {
+.seventh-section-container-info img {
   margin: 30px auto;
   max-width: 600px;
+  text-align: center;
 }
 
-.eighth-section-heading-container h1 {
+/* Final Design Section */
+
+.final-design-section-container {
   margin: 0 auto;
+  padding: 45px;
+  display: block;
+}
+
+.final-design-section-container h1 {
+  margin: 30px auto;
   max-width: 600px;
+  text-align: center;
 }
 
-.eighth-section-container-info h4 {
-  margin: 15px 0;
-}
-
-@media (max-width: 576px) {
-  .eighth-section-container {
-    padding: 50px;
-  }
-}
 /* Branding Section */
 
 /* styling applied to braning section and ninth section */
-.splitshow-items-container {
+/* .splitshow-items-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
@@ -611,9 +576,7 @@ a:hover {
     margin: -25px 0;
     padding: 50px;
   }
-}
-
-/* Ninth Section */
+} */
 
 /* Figma Section */
 
